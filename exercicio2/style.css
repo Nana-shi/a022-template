@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, main, footer {
+    border: 1px solid black;
+}
+/*
+unidades de medida relativas: 
+
+width: 1200px
+
+vw = view width
+vh = view height
+1rem = 16px
+
+*/
+.altura-header {
+    background-color: white;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.altura-main {
+    height: 150vh;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 62.3px;
+}
+
+.altura-footer {
+    height: 10vh;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
