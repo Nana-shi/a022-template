@@ -16,6 +16,7 @@
     padding: 20px;
     background-color: #e8e4e6;
     margin: 10px;
+    position: relative;
   }
   
   section{
@@ -27,8 +28,11 @@
   }
   
   nav{
+    position: sticky;
+    top: 0;
     padding: 20px;
     background-color: white;
+    z-index: 1; /*Essa propriedade traz o nav pra frente da main*/
   }
   
   footer{
@@ -36,3 +40,22 @@
     padding: 20px;
     text-align: center;
   }
+
+.texto-centralizado{
+  text-align: center;  
+}
+
+.texto-inferior{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.clicar-aqui:active{
+  background-color: green;
+  color: white;
+}
+
+.passar-aqui:hover{
+  background-color: yellow;
+}
